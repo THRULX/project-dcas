@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CreateAccount.css">
+    <title>CREATE ACCOUNT</title>
+</head>
+<body background="CABackground.jpg">
+    <form name="CA" method="post" action="CA.php">
+        <fieldset>
+            <legend>CREATE ACCOUNT</legend>
+            <table class="tbl_user">
+                <tr>
+                    <td>Admin ID:</td>
+                    <td>
+                        <input type="text" name="admin_id" placeholder="Enter Valid ID" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Last Name :</td>
+                    <td>
+                        <input type="text" name="last_name" placeholder="Enter Last Name" required>
+                    </td>
+                </tr>
+                <tr>
+                        <td>First Name :</td>
+                    <td>
+                        <input type="text" name="first_name" placeholder="Enter First Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Middle Name :</td>
+                    <td>
+                        <input type="text" name="middle_name" placeholder="Enter Middle Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sex :</td>
+                    <td>
+                        <input type="radio" name="sex" value="Male" requierd>Male
+                        <input type="radio" name="sex" value="Female" required>Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Birth Date :</td>
+                    <td>
+                        <input type="date" name="dob" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contact Number :</td>
+                    <td>
+                        <input type="number" name="contact_no" placeholder="Enter Contact #" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>User Name :</td>
+                    <td>
+                        <input type="text" name="admin_name" placeholder="Enter Username" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td>
+                        <input type="password" name="admin_password" placeholder="Enter Password" required>
+                    </td>
+                </tr>
+            </table>
+            <table class="btnlink">
+                <tr>
+                    <td>
+                        <a href="Login.html">SIGN IN</a>
+                    </td>
+                    <td>
+                        <input type="submit" name="create"  value="CREATE ACCOUNT">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

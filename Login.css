@@ -1,0 +1,66 @@
+body {
+    background-size: fit-content;
+}
+fieldset {
+    border-style: double;
+    border-width: 3px;
+    margin: 11% 32% 10%;
+    border-radius: 20px;
+    background: rgb(250, 120, 34);
+    border-color: #7fff00;
+}
+legend{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(17, 231, 231);
+    animation: UL 1s ease-in-out infinite alternate;
+    text-align: center;
+}
+@keyframes UL {
+    from {
+        text-shadow: 0 0 10px rgb(55, 241, 170), 0 0 20px rgb(24, 241, 169), 0 0 30px #0d85f5, 0 0 40px #0c94d3, 0 0 50px #00b0e6, 0 0 60px #0400e6, 0 0 70px #0e3edd;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ffc74d, 0 0 40px #fadc34, 0 0 50px #d2e717, 0 0 60px #b3e20a, 0 0 70px #d2f319, 0 0 80px #81e410;}
+}
+input[type="text"]{
+    text-align: center;
+    padding: 7px 25px 7px;
+    margin-bottom: 2%;
+    width: 250px;
+}
+input[type="password"]{
+    text-align: center;
+    padding: 7px 25px 7px;
+    width: 250px;
+}
+input[type="submit"]{
+    text-align: center;
+    padding: 7px 25px 7px;
+    background: chartreuse;
+    margin-left: 90px;
+    font-weight: bold;
+}
+img[src="User.png"] {
+    height: 28px;
+    width: 28px;
+    border: 1px solid rgb(5, 180, 13);
+    background: #070808;
+}
+img[src="Key.png"] {
+    height: 28px;
+    width: 28px;
+    border: 1px solid rgb(5, 180, 13);
+    background: #070808;
+}
+table[class="A"] {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+table[class="B"] {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}

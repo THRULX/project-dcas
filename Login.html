@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Login.css">
+    <title>LOGIN</title>
+</head>
+<body background="LoginBackground.jpg">
+    <fieldset>
+        <legend>LOGIN</legend>
+        <form name="Login" method="post" action="Login.php">
+            <table class="A">
+                <tr>
+                    <td>
+                        <input type="text" name="admin_name" placeholder="USERNAME" required>
+                    </td>
+                    <td>
+                        <img src="User.png">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" name="admin_password" placeholder="PASSWORD" required>
+                    </td>
+                    <td>
+                        <img src="Key.png">
+                    </td>
+                </tr>
+            </table>
+            <table class="B">
+                <tr>
+                    <td>
+                        <a href="CreateAccount.html">CREATE ACCOUNT</a>
+                    </td>
+                    <td>
+                        <input type="submit" name="log_in" value="LOG IN">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>

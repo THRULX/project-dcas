@@ -1,0 +1,129 @@
+fieldset.header {
+    margin-right: 10px;
+    height: 40px;
+}
+a.dcas {
+    margin-right: 50px;
+    color: skyblue;
+    animation: DCAS 1s ease-in-out infinite alternate;
+    font-size: 40px;
+}
+@keyframes DCAS {
+    from {
+        text-shadow: 0 0 10px rgb(3, 34, 22), 0 0 20px rgb(3, 68, 47), 0 0 30px #041b30, 0 0 40px #011a25, 0 0 50px #021a22, 0 0 60px #030241, 0 0 70px #091847;
+    }
+    to {
+        text-shadow: 0 0 20px rgb(53, 28, 28), 0 0 30px #534016, 0 0 40px #8a7816, 0 0 50px #555e04, 0 0 60px #425305, 0 0 70px #353d05, 0 0 80px #3c6113;
+    }
+}
+a {
+    margin-right: 20px;
+}
+input[type="submit"][name="log_out"] {
+    height: 30px;
+    float: right;
+    margin-top: 10px;
+}
+.row {
+    display: flex;
+}
+.col1 {
+    flex: 24%;
+    background: transparent;
+    color: yellow;
+}
+.col2 {
+    flex: 76%;
+    background: transparent;
+    color: yellow;
+}
+h1.appointments {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+h3.lbl1 {
+    text-align: center;
+    margin-top: 20px;
+}
+h3.lbl2 {
+    text-align: center;
+    margin-top: 20px;
+}
+table.app {
+    margin-left: 10px;
+}
+table.app td.txtlbl {
+    width: 105px;
+}
+table.app_query {
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+table.app_query td {
+    width: 300px;
+}
+table.app_query tr.A{
+    text-align: left;
+}
+fieldset.show_app {
+    margin-left: auto;
+    margin-right: 10px;
+    height: 430px;
+    border-color: chartreuse;
+}
+table.show_app {
+    text-align: center;
+    border-color: rgb(236, 233, 233);
+    margin-top: 0.8%;
+    width: 100%;
+}
+thead {
+    background: black;
+    color: white;
+}
+table.show_app tbody {
+    background: white;
+    color: black;   
+}
+input[type="date"]{
+    width: 172px;
+}
+select {
+    width: 177px;
+    text-align: center;
+}
+input[type="time"]{
+    width: 172px;
+}
+input {
+    text-align: center;
+}
+input[type="submit"][name="add"] {
+    width: 70px;
+    margin-top: 5px;
+}
+input[type="submit"][name="ps1"] {
+    margin-top: 5px;
+    margin-left: 105px;
+    width: 70px;
+}
+input[type="submit"][name="ps2"] {
+    margin-left: 105px;
+    width: 70px;
+    margin-top: 5px;
+}
+input[type="submit"][name="ps3"] {
+    margin-left: 105px;
+    width: 70px;
+    margin-top: 5px;
+}
+input[type="submit"][name="ps4"] {
+    margin-left: 105px;
+    width: 70px;
+    margin-top: 5px;
+}
+input[type="submit"]{
+    background: chartreuse;
+}
